@@ -1,3 +1,9 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .head {
     background: #fc0;
     height: 100px;
@@ -5,7 +11,8 @@
     width: 100px;
     border-radius:50%;
   }
-  .face {
+
+.face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;
@@ -13,4 +20,4 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
-  }
+}
